@@ -12,7 +12,7 @@ def reconocer_voz():
 
     try:
         # Utilizar Google Speech Recognition para convertir el audio en texto
-        texto = r.recognize_google(audio, language='en-US')
+        texto = r.recognize_google(audio, language='es-ES')
         print("Has dicho: " + texto)
         return texto
     except sr.UnknownValueError:
